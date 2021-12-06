@@ -1,4 +1,4 @@
-baseURL = 'https://tendy-s.github.io/cpsc330'
+baseURL = 'https://tendy-s.github.io/cpsc330-hw8'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "ananke"

@@ -36,6 +36,7 @@ To evaluate our results, we call score on the test set. Using the metric "f1 sco
  
  Overall, this project serves as a solid foundation for any future exploration. Although the less relevant "False/No default" class seems to have achieved superior scores, we need to keep in mind that is very possible for our results to be further improved through other interesting techniques, such as feature engineering and adjusting prediction thresholds. But we’ll save these ideas for our next machine learning adventure!
 
+ #### Figure 5: Classification report
 ![classification report](../img/classification_report.png)
 
 ### Caveats 

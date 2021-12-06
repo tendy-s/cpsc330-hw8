@@ -1,0 +1,4 @@
+baseURL = 'https://tendy-s.github.io/cpsc330'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "ananke"

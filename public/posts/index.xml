@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Tendy site</title>
+    <link>https://tendy-s.github.io/cpsc330-hw8/posts/</link>
+    <description>Recent content in Posts on Tendy site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Dec 2021 16:13:44 -0800</lastBuildDate><atom:link href="https://tendy-s.github.io/cpsc330-hw8/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analysis of default of credit card clients dataset </title>
+      <link>https://tendy-s.github.io/cpsc330-hw8/posts/my-first-post/</link>
+      <pubDate>Sun, 05 Dec 2021 16:13:44 -0800</pubDate>
+      
+      <guid>https://tendy-s.github.io/cpsc330-hw8/posts/my-first-post/</guid>
+      <description>Problem description In this mini project, our primary objective is to predict whether a credit card client will default (&amp;ldquo;True&amp;rdquo;) or not (&amp;ldquo;False&amp;rdquo;), which could potentially motivate the company to adopt appropriate preventative actions. This is often referred to as a spotting problem. In machine learning, calling &amp;ldquo;score&amp;rdquo; by default returns accuracy as a means to measure the quality of the model. However, in this particular problem, it would be beneficial to acquire an in-depth understanding of the errors.</description>
+    </item>
+    
+  </channel>
+</rss>

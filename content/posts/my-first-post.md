@@ -24,7 +24,7 @@ It seems that for features education, marriage and pay_x, there are inconsistenc
 ![correlation heatmap](../img/age.png)
 
 ### Description of the model 
-After creating pipelines, making comparisons between a baseline and various appropriate classifiers, the chosen model was LightGBM. LightGBM is a gradient boosted tree model that is particularly notable for its speed. Since from our initial data analyses, we discovered that there is class imbalance, we address this issue by setting the class_weight to “balanced”. We further optimize its hyperparameters by using RandomizedSearchCV, which is a particularly useful method when we have many parameters to try. Through additional tuning, we are able to produce a slightly higher test f1 score of 0.544. Moreover, it is beneficial to evaluate which features our model considers to be important. For instance, by using a tool called shap, we are given an explanation of the impact of important features. In this case, the top three are pay_0, limit_bal and bill_amt1 (Figure 3).
+After creating pipelines, making comparisons between a baseline and various appropriate classifiers, the chosen model is LightGBM. LightGBM is a gradient boosted tree model that is particularly notable for its speed. Since from our initial data analyses, we discovered that there is class imbalance, we address this issue by setting the class_weight to “balanced”. We further optimize its hyperparameters by using RandomizedSearchCV, which is a particularly useful method when we have many parameters to try. Through additional tuning, we are able to produce a slightly higher test f1 score of 0.544. Moreover, it is beneficial to evaluate which features our model considers to be important. For instance, by using a tool called shap, we are given an explanation of the impact of important features. In this case, the top three are pay_0, limit_bal and bill_amt1 (Figure 3).
 
 #### Figure 5: LGBM and pipeline
 
@@ -32,7 +32,7 @@ After creating pipelines, making comparisons between a baseline and various appr
 
 ![pipeline](../img/pipeline.png)
 
-#### Figure 6: RandomSearchCV with LGBM results
+#### Figure 6: RandomizedSearchCV with LGBM results
 
 ![random search](../img/random_search.png)
 
